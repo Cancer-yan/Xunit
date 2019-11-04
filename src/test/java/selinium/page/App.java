@@ -10,7 +10,7 @@ public class App extends BasePage{
 
     public App login(){
         String url = "https://work.weixin.qq.com/wework_admin/loginpage_wx";
-        loginWithCooike(url);
+        loginWithCookie(url);
         return this;
     }
     public Department toContact(){
