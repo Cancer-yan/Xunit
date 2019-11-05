@@ -16,7 +16,7 @@ public class BasePage {
         driver = new ChromeDriver();
         driver.get(url);
         driver.manage().addCookie(new Cookie("wwrtx.refid", "2723360625349312"));
-        driver.manage().addCookie(new Cookie("wwrtx.sid", "DkAQaM1LD7cesTKVpe3yZZhsbvyD4qVYMGUJzYtTF71N3H7CN7SmrFzA_Cde4_fA"));
+        driver.manage().addCookie(new Cookie("wwrtx.sid", "DkAQaM1LD7cesTKVpe3yZZhsbvyD4qVYMGUJzYtTF71N3H7CN7SmrFzA_Cde4_YY"));
         driver.navigate().refresh();
     }
     public WebElement findElement(By by){
