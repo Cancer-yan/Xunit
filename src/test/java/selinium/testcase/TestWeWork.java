@@ -9,6 +9,9 @@ import selinium.page.App;
 
 import org.openqa.selenium.support.ui.WebDriverWait;
 import selinium.page.App;
+import selinium.page.Department;
+
+import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -25,5 +28,10 @@ public class TestWeWork {
         app.toContact().add("霍格沃兹",2);
         //assertThat();
     }
-
+    @Test
+    public void selectDepartment(){
+        app.toContact();
+        Department department=new Department();
+        department.selectDepartment(1,2);
+    }
 }

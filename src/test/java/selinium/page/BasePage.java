@@ -20,6 +20,7 @@ public class BasePage {
         driver.navigate().refresh();
     }
     public WebElement findElement(By by){
+
         return driver.findElement(by);
     }
     public void waitElement(By by,int timeout){
