@@ -22,7 +22,7 @@ public class TestWeWork {
     }
     @Test
     public void addDepartment(){
-        app.toContact().add("霍格沃兹");
+        app.toContact().add("霍格沃兹",2);
         //assertThat();
     }
 
