@@ -17,12 +17,10 @@ public class Department extends BasePage{
     }
 
     //添加部门
-    public Department add(String name,int own){
-        waitElement(By.cssSelector(".member_colLeft_top_addBtn"),10);
-        findElement(By.cssSelector(".member_colLeft_top_addBtn")).click();
+    public Department add(String deptName,int own){
+        waitElementAndClick(By.cssSelector(".member_colLeft_top_addBtn"),10);
         findElement(By.linkText("添加部门")).click();
-        waitElement(By.name("name"),10);
-        findElement(By.name("name")).sendKeys(name);
+        waitElementAndSendKey(By.name("name"),10, deptName);
         findElement(By.linkText("选择所属部门")).click();
         //根据传入的索引选择所属部门
         if(own==0){
@@ -35,7 +33,7 @@ public class Department extends BasePage{
             findElement(By.linkText("确定")).click();
         return this;
     }
-    //选择某个某个部门下的子部门
+    //选择某个部门下的子部门
     public void selectDepartment(int father,int child){
         waitElement(By.className("jstree-anchor"),20);
         int firstClick=countByCss("jstree-anchor");

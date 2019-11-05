@@ -25,13 +25,13 @@ public class TestWeWork {
     }
     @Test
     public void addDepartment(){
-        app.toContact().add("霍格沃兹",2);
+        app.toContact().add("霍格沃兹2",2);
         //assertThat();
     }
     @Test
     public void selectDepartment(){
         app.toContact();
         Department department=new Department();
-        department.selectDepartment(1,2);
+        department.selectDepartment(2,1);
     }
 }

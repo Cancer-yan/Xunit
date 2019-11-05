@@ -26,5 +26,13 @@ public class BasePage {
     public void waitElement(By by,int timeout){
         new WebDriverWait(driver,timeout).until(ExpectedConditions.elementToBeClickable(by));
     }
+    public void waitElementAndClick(By by,int timeout){
+        new WebDriverWait(driver,timeout).until(ExpectedConditions.elementToBeClickable(by));
+        findElement(by).click();
+    }
+    public void waitElementAndSendKey(By by,int timeout,String name){
+        new WebDriverWait(driver,timeout).until(ExpectedConditions.elementToBeClickable(by));
+        findElement(by).sendKeys(name);
+    }
 
 }
