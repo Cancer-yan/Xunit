@@ -24,14 +24,20 @@ public class TestWeWork {
         app.login();
     }
     @Test
-    public void addDepartment(){
-        app.toContact().add("霍格沃兹2",2);
+    public void addDepartment() throws InterruptedException {
+        app.toContact().add("霍格沃兹2",3);
         //assertThat();
     }
     @Test
-    public void selectDepartment(){
+    public void selectDepartment() throws InterruptedException {
         app.toContact();
         Department department=new Department();
         department.selectDepartment(2,1);
+    }
+    @Test
+    public void deleteDept() throws InterruptedException {
+        app.toContact();
+        Department department=new Department();
+        department.deleteDepartment(1,2);
     }
 }
