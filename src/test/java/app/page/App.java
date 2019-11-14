@@ -15,7 +15,7 @@ public class App extends BaseTest{
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "android");
         desiredCapabilities.setCapability("deviceName", "4LTWCQORW8E6CA6P");
-        desiredCapabilities.setCapability("app", "D:\\QMDownload\\Chrome\\xq.apk");
+        desiredCapabilities.setCapability("app", "D:\\QMDownload\\Chrome\\xueqiu.apk");
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
         desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");
         desiredCapabilities.setCapability("noReset", "true");
@@ -25,7 +25,7 @@ public class App extends BaseTest{
         driver = new AndroidDriver(remoteUrl, desiredCapabilities);
     }
 
-    public SearchPage toSearch(){
+    public static SearchPage toSearch(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         App.driver.findElement(By.id("com.xueqiu.android:id/home_search")).click();
         return new SearchPage();
