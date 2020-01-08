@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3b227d9-cfe0-4587-9b6f-d78a703ef185" name="Default Changelist" comment="提交home">
-      <change afterPath="$PROJECT_DIR$/src/test/java/app/page/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/app/page/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/app/testcase/searchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selinium/page/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selinium/page/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Xunit.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Xunit.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/selinium/page/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selinium/page/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/selinium/page/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selinium/page/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/selinium/page/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selinium/page/Department.class" afterDir="false" />
@@ -24,13 +22,48 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Xunit$multiplicationTest_multi.ic" NAME="multiplicationTest.multi Coverage Results" MODIFIED="1572182625863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="295">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/BaseWeWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/service/weWork/token.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -38,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/selinium/testcase/TestWeWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
+            <state relative-caret-position="576">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,11 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/app/page/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
+            <state relative-caret-position="200">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -62,17 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/app/page/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
+            <state relative-caret-position="125">
               <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/app/page/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="49" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/app/testcase/searchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="375">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,13 +153,15 @@
         <option value="$PROJECT_DIR$/src/test/java/selinium/page/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/selinium/testcase/TestWeWork.java" />
         <option value="$PROJECT_DIR$/src/test/java/selinium/page/Department.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/app/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/app/page/SampleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/app/testcase/searchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/app/page/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/app/page/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/app/page/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/service/weWork/token.conf" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/service/BaseWeWork.java" />
       </list>
     </option>
   </component>
@@ -152,10 +184,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="14" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,8 +226,34 @@
               <item name="Xunit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mock" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Xunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Xunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Xunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Xunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Xunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Xunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="weWork" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Xunit" type="b2602c69:ProjectViewProjectNode" />
@@ -216,50 +274,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Xunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xunit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Xunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xunit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Xunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xunit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="selinium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Xunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xunit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="selinium" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Xunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xunit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Xunit" type="b2602c69:ProjectViewProjectNode" />
@@ -278,12 +293,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578476278038" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../interface-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -313,18 +331,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.searchTest.testSearch">
-    <configuration name="SampleTest.sampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BaseWeWork.getToken">
+    <configuration name="BaseWeWork.getToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Xunit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="app.page.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="app.page" />
-      <option name="MAIN_CLASS_NAME" value="app.page.SampleTest" />
-      <option name="METHOD_NAME" value="sampleTest" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.BaseWeWork" />
+      <option name="METHOD_NAME" value="getToken" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -396,36 +414,30 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BaseWeWork.getToken" />
         <item itemvalue="JUnit.searchTest.testSearch" />
         <item itemvalue="JUnit.TestWeWork.deleteDept" />
         <item itemvalue="JUnit.TestWeWork.addDepartment" />
         <item itemvalue="JUnit.searchTest.testsearch" />
-        <item itemvalue="JUnit.SampleTest.sampleTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3b227d9-cfe0-4587-9b6f-d78a703ef185" name="Default Changelist" comment="提交home" />
+      <created>1578458670325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578458670325</updated>
+      <workItem from="1578458672424" duration="6000" />
+      <workItem from="1578458684686" duration="5141000" />
+    </task>
+    <servers />
+  </component>
   <component name="TestHistory">
-    <history-entry file="searchTest_testSearch - 2019.11.10 at 15h 40m 22s.xml">
-      <configuration name="searchTest.testSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="searchTest_testSearch - 2019.11.10 at 15h 42m 21s.xml">
-      <configuration name="searchTest.testSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="searchTest_testSearch - 2019.11.10 at 15h 46m 58s.xml">
-      <configuration name="searchTest.testSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeWork_deleteDept - 2019.11.10 at 15h 56m 07s.xml">
-      <configuration name="TestWeWork.deleteDept" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="searchTest_testSearch - 2019.11.10 at 15h 56m 53s.xml">
-      <configuration name="searchTest.testSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="searchTest_testSearch - 2019.11.10 at 16h 02m 14s.xml">
-      <configuration name="searchTest.testSearch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="searchTest_testSearch - 2019.11.10 at 16h 43m 03s.xml">
       <configuration name="searchTest.testSearch" configurationId="JUnit" />
     </history-entry>
@@ -438,6 +450,27 @@
     <history-entry file="searchTest_testSearch - 2019.11.10 at 16h 48m 52s.xml">
       <configuration name="searchTest.testSearch" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BaseWeWork_getToken - 2020.01.08 at 13h 12m 37s.xml">
+      <configuration name="BaseWeWork.getToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseWeWork_getToken - 2020.01.08 at 13h 13m 07s.xml">
+      <configuration name="BaseWeWork.getToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseWeWork_getToken - 2020.01.08 at 13h 14m 04s.xml">
+      <configuration name="BaseWeWork.getToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseWeWork_getToken - 2020.01.08 at 13h 14m 31s.xml">
+      <configuration name="BaseWeWork.getToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseWeWork_getToken - 2020.01.08 at 13h 16m 39s.xml">
+      <configuration name="BaseWeWork.getToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseWeWork_getToken - 2020.01.08 at 14h 24m 09s.xml">
+      <configuration name="BaseWeWork.getToken" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,35 +482,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21907842" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.15409836" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86913764" weight="0.44262296" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.86913764" visible="true" weight="0.22202487" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" sideWeight="0.4969743" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49393696" weight="0.3268206" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.5741301" weight="0.34590164" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" visible="true" weight="0.32786885" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4977307" weight="0.24262296" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.46822995" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.57154405" weight="0.088809945" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.42845595" side_tool="true" weight="0.3445826" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49717057" weight="0.24156305" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.46822995" weight="0.3268206" />
+      <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.16717096" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32983023" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.16653194" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.18986385" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Structure" order="10" weight="0.2497979" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -516,6 +554,10 @@
     <MESSAGE value="提交home" />
     <MESSAGE value="优化,增加公共方法" />
     <option name="LAST_COMMIT_MESSAGE" value="优化,增加公共方法" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/test/multiplicationTestTest.java" />
@@ -562,13 +604,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selinium/page/SetCookie.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/WebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4536">
-          <caret line="189" column="9" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/WebDriver.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mock/multiplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -610,20 +646,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/Cookie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2835">
-          <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/app/page/SampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/Cookie.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/selinium/page/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -634,56 +657,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/app/page/SampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selinium/testcase/TestWeWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/app/page/SampleTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/app/page/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="200">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/app/page/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="125">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/app/testcase/searchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -693,7 +685,41 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/app/page/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="49" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selinium/testcase/TestWeWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/service/weWork/token.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/BaseWeWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -717,7 +743,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
