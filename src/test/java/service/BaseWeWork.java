@@ -15,13 +15,14 @@ import static org.hamcrest.Matchers.equalTo;
  * @version 1.0
  * @date 2020/1/8 12:47 Create
  */
+
 public class BaseWeWork {
-    String confPath=System.getProperty("user.dir")+"\\src\\main\\resources\\conf\\service\\weWork\\token.conf";
-    private String corpid=null;
-    private String corpsecret=null;
-    private String token=null;
-    @Test
-    public String getToken() throws IOException {
+    static String confPath=System.getProperty("user.dir")+"\\src\\resources\\conf\\service\\token.conf";
+    private static String corpid=null;
+    private static String corpsecret=null;
+    private static String token=null;
+
+    public static String getToken() throws IOException {
         System.out.println(confPath);
         Properties properties=new Properties();
         properties.load(new FileInputStream(confPath));
@@ -37,6 +38,7 @@ public class BaseWeWork {
         .then()
                 .body("errmsg",equalTo("ok"))
         .extract().body().path("access_token");
+
 
     }
 
