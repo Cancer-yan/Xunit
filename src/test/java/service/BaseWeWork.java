@@ -22,10 +22,14 @@ public class BaseWeWork {
     private static String corpsecret=null;
     private static String token=null;
 
-    public static String getToken() throws IOException {
+    public static String getToken(){
         System.out.println(confPath);
         Properties properties=new Properties();
-        properties.load(new FileInputStream(confPath));
+        try {
+            properties.load(new FileInputStream(confPath));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         corpid=properties.getProperty("corpid");
         corpsecret=properties.getProperty("corpsecret");
 
