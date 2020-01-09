@@ -17,13 +17,13 @@ import static org.hamcrest.Matchers.equalTo;
  */
 
 public class BaseWeWork {
-    static String confPath=System.getProperty("user.dir")+"\\src\\resources\\conf\\service\\token.conf";
     private static String corpid=null;
     private static String corpsecret=null;
     private static String token=null;
 
     public static String getToken(){
-        System.out.println(confPath);
+        String confPath=System.getProperty("user.dir")+"\\src\\main\\resources\\conf\\service\\token.conf";
+        //System.out.println(confPath);
         Properties properties=new Properties();
         try {
             properties.load(new FileInputStream(confPath));
